@@ -1,0 +1,4 @@
+#! /bin/bash
+
+rm -r /root/freqtrade/user_data/backtest_results/*
+rm -r /root/freqtrade/user_data/models/unique-id/

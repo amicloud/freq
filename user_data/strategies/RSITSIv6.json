@@ -1,0 +1,29 @@
+{
+  "strategy_name": "RSITSIv6",
+  "params": {
+    "roi": {},
+    "stoploss": {
+      "stoploss": -0.1
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 10
+    },
+    "buy": {
+      "buy_rsi": 20,
+      "buy_tsi": -45.08
+    },
+    "sell": {
+      "sell_rsi": 75,
+      "sell_tsi": 39.17
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-06-23 23:18:47.394761+00:00"
+}

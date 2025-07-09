@@ -1,0 +1,32 @@
+{
+  "strategy_name": "QuickbroRsi",
+  "params": {
+    "stoploss": {
+      "stoploss": -0.4
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 10
+    },
+    "buy": {
+      "lookback_days": 188,
+      "rsi_buy": 27.2
+    },
+    "sell": {},
+    "protection": {},
+    "roi": {
+      "1440": 0.1,
+      "4320": 0.2,
+      "11232": 0.3,
+      "30528": 0.4,
+      "62208": 0.0
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-06-24 00:38:50.068683+00:00"
+}

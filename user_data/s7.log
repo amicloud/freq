@@ -1,0 +1,119 @@
+2025-06-04 08:26:08,259 - freqtrade - INFO - freqtrade 2025.5
+2025-06-04 08:26:08,655 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2025-06-04 08:26:11,033 - freqtrade.configuration.load_config - INFO - Using config: user_data/btconf.json ...
+2025-06-04 08:26:11,037 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-06-04 08:26:11,038 - root - INFO - Logfile configured
+2025-06-04 08:26:11,039 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-06-04 08:26:11,040 - freqtrade.configuration.configuration - INFO - Parameter -i/--timeframe detected ... Using timeframe: 5m ...
+2025-06-04 08:26:11,041 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 60 ...
+2025-06-04 08:26:11,041 - freqtrade.configuration.configuration - INFO - Parameter --timerange detected: 20250401-20250531 ...
+2025-06-04 08:26:11,051 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-06-04 08:26:11,053 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/cryptocom ...
+2025-06-04 08:26:11,053 - freqtrade.configuration.configuration - INFO - Overriding timeframe with Command line argument
+2025-06-04 08:26:11,054 - freqtrade.configuration.configuration - INFO - Parameter --cache=day detected ...
+2025-06-04 08:26:11,055 - freqtrade.configuration.configuration - INFO - Filter trades by timerange: 20250401-20250531
+2025-06-04 08:26:11,056 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-06-04 08:26:11,066 - freqtrade.exchange.check_exchange - WARNING - Exchange "cryptocom" is known to the ccxt library, available for the bot, but not officially supported by the Freqtrade 
+development team. It may work flawlessly (please report back) or have serious issues. Use it at your own discretion.
+2025-06-04 08:26:11,067 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-06-04 08:26:11,068 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-06-04 08:26:11,072 - freqtrade.commands.optimize_commands - INFO - Starting freqtrade in Backtesting mode
+2025-06-04 08:26:11,073 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2025-06-04 08:26:11,074 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.82
+2025-06-04 08:26:11,092 - freqtrade.exchange.exchange - INFO - Using Exchange "Crypto.com"
+2025-06-04 08:26:11,864 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Cryptocom'...
+/home/ftuser/.local/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2025-06-04 08:26:12,031 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy Simple7 from '/freqtrade/user_data/strategies/Simple7Strategy_v2.py'...
+2025-06-04 08:26:12,032 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2025-06-04 08:26:12,033 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 5m.
+2025-06-04 08:26:12,035 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-06-04 08:26:12,035 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2025-06-04 08:26:12,036 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 
+'minutes'}.
+2025-06-04 08:26:12,036 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 60.
+2025-06-04 08:26:12,037 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.012}
+2025-06-04 08:26:12,037 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-06-04 08:26:12,038 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2025-06-04 08:26:12,039 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2025-06-04 08:26:12,039 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive: 0.02
+2025-06-04 08:26:12,040 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.03
+2025-06-04 08:26:12,040 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-06-04 08:26:12,041 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-06-04 08:26:12,041 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-06-04 08:26:12,042 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2025-06-04 08:26:12,043 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-06-04 08:26:12,043 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-06-04 08:26:12,044 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2025-06-04 08:26:12,044 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-06-04 08:26:12,045 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2025-06-04 08:26:12,045 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-06-04 08:26:12,046 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-06-04 08:26:12,046 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: True
+2025-06-04 08:26:12,047 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-06-04 08:26:12,047 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-06-04 08:26:12,048 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-06-04 08:26:12,048 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-06-04 08:26:12,049 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-06-04 08:26:12,049 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 60
+2025-06-04 08:26:12,050 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-06-04 08:26:12,080 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2025-06-04 08:26:12,090 - freqtrade.optimize.backtesting - INFO - Using fee 0.4000% - worst case fee from exchange (lowest tier).
+2025-06-04 08:26:12,330 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-04-01 00:00:00 up to 2025-05-31 00:00:00 (60 days).
+2025-06-04 08:26:13,114 - freqtrade.optimize.backtesting - INFO - Dataload complete. Calculating indicators
+2025-06-04 08:26:13,118 - freqtrade.optimize.backtesting - INFO - Running backtesting for Strategy Simple7
+2025-06-04 08:26:13,119 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2025-06-04 08:26:13,120 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): bb_buy_width = 0.02
+2025-06-04 08:26:13,122 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_signal_ratio = 0.7
+2025-06-04 08:26:13,123 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): cci_buy_threshold = -50
+2025-06-04 08:26:13,124 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): ewo_buy_threshold = 0.3
+2025-06-04 08:26:13,124 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): rsi_fast_threshold = 30
+2025-06-04 08:26:13,125 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): vol_buy_mult = 1.2
+2025-06-04 08:26:13,126 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2025-06-04 08:26:13,126 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): bb_sell_width = 0.05
+2025-06-04 08:26:13,127 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): cci_sell_threshold = 100
+2025-06-04 08:26:13,128 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): ewo_sell_threshold = -0.3
+2025-06-04 08:26:13,128 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_signal_ratio = 0.7
+2025-06-04 08:26:13,129 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): rsi_sell_threshold = 70
+2025-06-04 08:26:13,129 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2025-06-04 08:26:13,254 - freqtrade - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/main.py", line 47, in main
+    return_code = args["func"](args)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/commands/optimize_commands.py", line 61, in start_backtesting
+    backtesting.start()
+  File "/freqtrade/freqtrade/optimize/backtesting.py", line 1820, in start
+    min_date, max_date = self.backtest_one_strategy(strat, data, timerange)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/optimize/backtesting.py", line 1730, in backtest_one_strategy
+    preprocessed = self.strategy.advise_all_indicators(data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/strategy/interface.py", line 1748, in advise_all_indicators
+    res[pair] = self.advise_indicators(pair_data.copy(), {"pair": pair}).copy()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/strategy/interface.py", line 1803, in advise_indicators
+    dataframe = self.populate_indicators(dataframe, metadata)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/user_data/strategies/Simple7Strategy_v2.py", line 59, in populate_indicators
+    ha_df['ha_high'] = ha_df[['ha_open', 'ha_close', dataframe['high']]].max(axis=1)
+                       ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/pandas/core/frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 6195, in _get_indexer_strict
+    indexer = self.get_indexer_for(keyarr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 6182, in get_indexer_for
+    return self.get_indexer(target)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3953, in get_indexer
+    return self._get_indexer(target, method, limit, tolerance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3980, in _get_indexer
+    indexer = self._engine.get_indexer(tgt_values)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 351, in pandas._libs.index.IndexEngine.get_indexer
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7132, in pandas._libs.hashtable.PyObjectHashTable.lookup
+TypeError: unhashable type: 'Series'
+

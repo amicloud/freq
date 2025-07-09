@@ -1,0 +1,36 @@
+{
+  "strategy_name": "Quickbro10",
+  "params": {
+    "stoploss": {
+      "stoploss": -0.05
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 10
+    },
+    "buy": {
+      "lookback_days": 47
+    },
+    "sell": {},
+    "protection": {},
+    "roi": {
+      "0": 0.4313,
+      "1520": 0.2541148148148,
+      "3040": 0.1212259259259,
+      "4560": 0.0326333333333,
+      "6080": -0.011662962963,
+      "7599": -0.011662962963,
+      "9120": 0.0326333333333,
+      "10640": 0.1212259259259,
+      "12160": 0.2541148148148,
+      "13680": 0.4313
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-06-20 03:00:25.272101+00:00"
+}

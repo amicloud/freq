@@ -1,0 +1,30 @@
+{
+  "strategy_name": "HistRateStrategyV10",
+  "params": {
+    "roi": {
+      "0": 0.02
+    },
+    "stoploss": {
+      "stoploss": -0.05
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 10
+    },
+    "buy": {
+      "lookback_window": 184,
+      "slope_window": 16,
+      "threshold_loss": 0.02,
+      "threshold_win": 1.0
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-06-21 03:06:35.427047+00:00"
+}

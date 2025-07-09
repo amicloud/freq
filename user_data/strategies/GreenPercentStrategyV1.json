@@ -1,0 +1,31 @@
+{
+  "strategy_name": "GreenPercentStrategyV1",
+  "params": {
+    "roi": {
+      "10080": 0.0
+    },
+    "stoploss": {
+      "stoploss": -0.1
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 10
+    },
+    "buy": {
+      "entry_lookback": 16,
+      "entry_threshold": 0.644
+    },
+    "sell": {
+      "exit_lookback": 135,
+      "exit_threshold": 0.729
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-06-21 06:15:18.689555+00:00"
+}

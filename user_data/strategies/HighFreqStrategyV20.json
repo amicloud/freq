@@ -1,0 +1,30 @@
+{
+  "strategy_name": "HighFreqStrategyV20",
+  "params": {
+    "roi": {
+      "0": 0.005
+    },
+    "stoploss": {
+      "stoploss": -0.02
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 8
+    },
+    "buy": {
+      "buy_drop_pct": 1.0,
+      "buy_ema_long": 52,
+      "buy_ema_short": 27,
+      "ema_trend_period": 10
+    },
+    "sell": {},
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-06-17 23:02:21.427439+00:00"
+}

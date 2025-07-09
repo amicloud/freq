@@ -1,0 +1,92 @@
+                                                                 Exchanges available for Freqtrade (87 exchanges):                                                                  
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Exchange Name              ┃ Class Name                      ┃ Markets                               ┃ Reason                                                                    ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Alpaca                     │ alpaca                          │ spot                                  │ missing opt: fetchL2OrderBook.                                            │
+│ Apex                       │ apex                            │ DEX: spot                             │                                                                           │
+│ AscendEX                   │ ascendex                        │ spot                                  │ missing opt: fetchMyTrades.                                               │
+│ Bequant                    │ bequant                         │ spot                                  │                                                                           │
+│ BigONE                     │ bigone                          │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Binance (Supported)        │ binance                         │ spot, cross futures, isolated futures │                                                                           │
+│ Binance US (Supported)     │ binanceus                       │ spot, cross futures, isolated futures │                                                                           │
+│ Binance USDⓈ-M (Supported) │ binanceusdm                     │ spot, cross futures, isolated futures │                                                                           │
+│ BingX (Supported)          │ bingx                           │ spot                                  │                                                                           │
+│ Bit2C                      │ bit2c                           │ spot                                  │ missing opt: fetchTickers, watchOHLCV.                                    │
+│ bitbank                    │ bitbank                         │ spot                                  │ missing opt: fetchTickers, watchOHLCV.                                    │
+│ Bitbns                     │ bitbns                          │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Bitfinex                   │ bitfinex                        │ spot                                  │                                                                           │
+│ Bitget                     │ bitget                          │ spot                                  │                                                                           │
+│ Bithumb                    │ bithumb                         │ spot                                  │ missing opt: fetchMyTrades, watchOHLCV.                                   │
+│ BitMart (Supported)        │ bitmart                         │ spot                                  │                                                                           │
+│ BitoPro                    │ bitopro                         │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Bitrue                     │ bitrue                          │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Bitso                      │ bitso                           │ spot                                  │ missing opt: fetchTickers, watchOHLCV.                                    │
+│ Bitstamp                   │ bitstamp                        │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ BIT.TEAM                   │ bitteam                         │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Bitvavo                    │ bitvavo                         │ spot                                  │                                                                           │
+│ Blockchain.com             │ blockchaincom                   │ spot                                  │ missing opt: fetchTrades.                                                 │
+│ BTC-Alpha                  │ btcalpha                        │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ BtcBox                     │ btcbox                          │ spot                                  │ missing opt: fetchMyTrades, watchOHLCV.                                   │
+│ BTC Markets                │ btcmarkets                      │ spot                                  │ missing opt: fetchTickers, watchOHLCV.                                    │
+│ Bybit (Supported)          │ bybit                           │ spot, isolated futures                │                                                                           │
+│ CEX.IO                     │ cex                             │ spot                                  │ missing opt: fetchMyTrades.                                               │
+│ Coinbase Advanced          │ coinbase                        │ spot                                  │ missing opt: fetchL2OrderBook, watchOHLCV.                                │
+│ Coinbase Advanced          │ coinbaseadvanced (use coinbase) │ spot                                  │ missing opt: fetchL2OrderBook, watchOHLCV.                                │
+│ Coinbase Exchange          │ coinbaseexchange                │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Coinbase International     │ coinbaseinternational           │ spot                                  │ missing opt: fetchOrderBook, fetchL2OrderBook, fetchTrades.               │
+│ CoinCatch                  │ coincatch                       │ spot                                  │                                                                           │
+│ CoinEx                     │ coinex                          │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Coinlist                   │ coinlist                        │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ CoinMate                   │ coinmate                        │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Coinmetro                  │ coinmetro                       │ spot                                  │ missing opt: fetchTicker, watchOHLCV.                                     │
+│ CoinOne                    │ coinone                         │ spot                                  │ missing opt: createMarketOrder, watchOHLCV.                               │
+│ Coins.ph                   │ coinsph                         │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Crypto.com                 │ cryptocom                       │ spot                                  │                                                                           │
+│ Cryptomus                  │ cryptomus                       │ spot                                  │ missing opt: fetchMyTrades, createMarketOrder, fetchTicker, watchOHLCV.   │
+│ Defx X                     │ defx                            │ DEX: spot                             │ missing opt: createMarketOrder.                                           │
+│ Deribit                    │ deribit                         │ spot                                  │                                                                           │
+│ DigiFinex                  │ digifinex                       │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Ellipx                     │ ellipx                          │ spot                                  │ missing opt: fetchMyTrades, createMarketOrder, fetchTickers, watchOHLCV.  │
+│ FMFW.io                    │ fmfwio                          │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Gate.io (Supported)        │ gate                            │ spot, isolated futures                │                                                                           │
+│ Gate.io                    │ gateio (use gate)               │ spot, isolated futures                │                                                                           │
+│ Gemini                     │ gemini                          │ spot                                  │ missing opt: createMarketOrder.                                           │
+│ HashKey Global             │ hashkey                         │ spot                                  │                                                                           │
+│ HitBTC                     │ hitbtc                          │ spot                                  │                                                                           │
+│ HollaEx                    │ hollaex                         │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ HTX (Supported)            │ htx                             │ spot                                  │                                                                           │
+│ HTX                        │ huobi (use htx)                 │ spot                                  │                                                                           │
+│ Huobi Japan                │ huobijp                         │ spot                                  │                                                                           │
+│ Hyperliquid (Supported)    │ hyperliquid                     │ DEX: spot, isolated futures           │                                                                           │
+│ IDEX                       │ idex                            │ DEX: spot                             │                                                                           │
+│ Independent Reserve        │ independentreserve              │ spot                                  │ missing opt: fetchTickers, watchOHLCV.                                    │
+│ INDODAX                    │ indodax                         │ spot                                  │ missing opt: fetchMyTrades, fetchTickers, watchOHLCV.                     │
+│ Kraken (Supported)         │ kraken                          │ spot                                  │                                                                           │
+│ KuCoin                     │ kucoin                          │ spot                                  │                                                                           │
+│ Kuna                       │ kuna                            │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Latoken                    │ latoken                         │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ LBank                      │ lbank                           │ spot                                  │                                                                           │
+│ luno                       │ luno                            │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Mercado Bitcoin            │ mercado                         │ spot                                  │ missing opt: fetchTickers, watchOHLCV.                                    │
+│ MEXC Global                │ mexc                            │ spot                                  │                                                                           │
+│ MyOKX(EEA) (Supported)     │ myokx                           │ spot, isolated futures                │                                                                           │
+│ NDAX                       │ ndax                            │ spot                                  │ missing opt: fetchTickers.                                                │
+│ NovaDAX                    │ novadax                         │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ OceanEx                    │ oceanex                         │ spot                                  │ missing opt: fetchMyTrades, watchOHLCV.                                   │
+│ OKCoin                     │ okcoin                          │ spot                                  │                                                                           │
+│ OKX (Supported)            │ okx                             │ spot, isolated futures                │                                                                           │
+│ One Trading                │ onetrading                      │ spot                                  │ missing opt: fetchTrades.                                                 │
+│ OXFUN                      │ oxfun                           │ spot                                  │                                                                           │
+│ Paradex                    │ paradex                         │ DEX: spot                             │ missing opt: watchOHLCV.                                                  │
+│ Phemex                     │ phemex                          │ spot                                  │                                                                           │
+│ TimeX                      │ timex                           │ spot                                  │ missing opt: watchOHLCV.                                                  │
+│ Tokocrypto                 │ tokocrypto                      │ spot                                  │ missing opt: fetchTicker, fetchTickers, watchOHLCV.                       │
+│ tradeogre                  │ tradeogre                       │ spot                                  │ missing opt: fetchMyTrades, createMarketOrder, watchOHLCV.                │
+│ Upbit                      │ upbit                           │ spot                                  │ missing opt: fetchMyTrades.                                               │
+│ Vertex                     │ vertex                          │ DEX: spot                             │ missing opt: fetchTicker, watchOHLCV.                                     │
+│ Waves.Exchange             │ wavesexchange                   │ DEX: spot                             │ missing opt: watchOHLCV.                                                  │
+│ WOO X                      │ woo                             │ spot                                  │ missing opt: createMarketOrder, fetchTicker, fetchTickers.                │
+│ WOOFI PRO                  │ woofipro                        │ DEX: spot                             │ missing opt: createMarketOrder, fetchTicker, fetchTickers.                │
+│ XT                         │ xt                              │ spot                                  │                                                                           │
+│ YoBit                      │ yobit                           │ spot                                  │ missing opt: createMarketOrder, watchOHLCV.                               │
+└────────────────────────────┴─────────────────────────────────┴───────────────────────────────────────┴───────────────────────────────────────────────────────────────────────────┘
